@@ -1,7 +1,10 @@
 /* Content Header  */
-.header {
-  background-image: url("/images/pattern.jpeg");
-  background-position: center;
-  background-size: cover;
-  height: 320px;
+h1 {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg");
+  font-size: 100px;
+  font-family: Helvetica;
+  text-align: center;
+  font-weight: bold;
+  color: khaki;
 }
+
