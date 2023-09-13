@@ -1,0 +1,7 @@
+/* Content Header  */
+.header {
+  background-image: url("/images/pattern.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+}
