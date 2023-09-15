@@ -1,0 +1,21 @@
+body {
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-top: 10px;
+}
+
+th {
+    border: 2px solid black;
+}
+
+table {
+    border: 2px solid blue;
+
+}
+
+td {
+    border: 2px solid red;
+}
