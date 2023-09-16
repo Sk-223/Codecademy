@@ -1,21 +1,44 @@
 body {
     margin: 0 auto;
+    background-color:#BDB76B;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    height: 900px;
 }
 
 .header {
     text-align: center;
     margin-top: 10px;
+    margin: 0 auto;
 }
 
 th {
     border: 2px solid black;
+    text-align: center;
+    font-weight: 900;
+    font-size: large;
+    color: #FFE4C4;
 }
 
 table {
-    border: 2px solid blue;
+    border: 2px solid black;
+    text-align: center;
 
 }
 
 td {
-    border: 2px solid red;
+    border: 2px solid black;
+    text-align: center;
+    padding: 3px;
+    font-weight: bold; 
+
+}
+
+.html-tags {
+    font-family: monospace;
+    background-color: #696969;
 }
