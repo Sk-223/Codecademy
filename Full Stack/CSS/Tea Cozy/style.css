@@ -140,17 +140,82 @@ h4 {
     width: 100%;
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
 }
 
 .locations {
-    top: 50px;
+    top: 88px;
     display: flex;
     justify-content: center;
     position: relative;
 }
 
 .locations-container {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+}
+
+.downtown,
+.east-bayside,
+.oakdale {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 300px;
+    margin-right: 40px;
+}
+
+div.locations-container > .downtown > *  {
+    display: flex;
+    justify-content: center;
+}
+
+div.locations-container > .east-bayside > * {
+    display: flex;
+    justify-content: center;
+}
+
+div.locations-container > .oakdale > * {
+    display: flex;
+    justify-content: center;
+}
+
+.opacity-one {
+    opacity: 1;
+}
+
+/* Footer content */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.footer-container > h2 > h5 > p {
+    margin-bottom: 50px;
+}
+
+.phone-number {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+    margin-bottom: 50px;
+}
+
+.contact-email {
+    margin-bottom: 50px;
+}
+
+.copyright-text {
+    margin-left: 20px;
+}
+
+.copyright {
+    text-align: left;
 }
