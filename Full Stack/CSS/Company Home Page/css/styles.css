@@ -56,3 +56,37 @@ a {
 
 /* Header Section  */
 
+header {
+    background-image: url('/images/header-image-2.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    min-height: 500px;
+    text-align: center;
+    justify-content: center;
+}
+
+.header-text {
+    max-width: 1061px;
+    margin: 60px;
+        
+}
+
+.header-article {
+    font-weight: 650;
+    line-height: 1.8;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+header h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
